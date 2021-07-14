@@ -1,5 +1,4 @@
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
   .hero-area {
     grid-template-columns: 1fr;
     text-align: center;
@@ -43,27 +42,13 @@
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-  .hero-area {
-    grid-template-columns: 1fr 1fr;
-  }
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
   .players {
     grid-template-columns: 1fr 1fr;
   }
 
-  .country {
-    grid-template-columns: 1fr;
-  }
-
-  .country ul li a {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 15px;
-  }
-
   .news {
     grid-template-columns: 1fr 1fr;
-    padding: 30px;
   }
 }
