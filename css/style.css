@@ -11,7 +11,7 @@ body {
 .section-padding {
   padding: 20px 100px;
 }
-/* start hero area */
+/* start header */
 .hero-area {
   background-color: #2d25a0;
   display: grid;
@@ -48,7 +48,7 @@ body {
   width: 556px;
   height: 438px;
 }
-/* end hero area */
+/* end header */
 
 /* player-section */
 .players {
@@ -102,6 +102,9 @@ body {
   line-height: 28px;
 }
 
+.highlights-left {
+  margin-top: 20px;
+}
 .highlights-left a {
   text-decoration: none;
   display: inline-block;
