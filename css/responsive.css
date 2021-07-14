@@ -1,0 +1,31 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .hero-area {
+    grid-template-columns: 1fr 1fr;
+  }
+  .players {
+    grid-template-columns: 1fr;
+  }
+
+  .country {
+    grid-template-columns: 1fr;
+  }
+
+  .country ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  .news {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
