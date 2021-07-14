@@ -1,7 +1,20 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .hero-area {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 0px 0px 30px 30px;
+    margin-left: 50px;
+  }
+  .hero-content h1 {
+    font-weight: bold;
+    font-size: 30px;
+    color: #fff;
+    line-height: 40px;
+  }
+  .hero-right img {
+    width: 300px;
+    height: 300px;
   }
   .players {
     grid-template-columns: 1fr;
@@ -16,7 +29,15 @@
     text-decoration: none;
     font-size: 15px;
   }
-
+  .highlights-area {
+    padding: 50px 100px;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .highlights-right iframe {
+    width: 300px;
+    height: fit-content;
+  }
   .news {
     grid-template-columns: 1fr;
   }
@@ -42,10 +63,7 @@
   }
 
   .news {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px;
   }
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
 }
